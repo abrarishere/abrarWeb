@@ -852,3 +852,35 @@ h3.my-profession {
     max-width: 100%;
   }
 }
+
+@media (max-width: 626px) {
+  .contact .contact-form .col-6 {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .home .home-info h1 {
+    font-size: 30px;
+  }
+
+  .home .home-info p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .service .service-item,
+  .portfolio .portfolio-item,
+  .contact .contact-info-item,
+  .contact .contact-form .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
