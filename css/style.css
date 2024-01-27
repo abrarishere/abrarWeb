@@ -840,6 +840,7 @@ h3.my-profession {
 
   .portfolio .portfolio-item-inner .portfolio-img img {
     height: auto;
+    width: 90%;
   }
 }
 
